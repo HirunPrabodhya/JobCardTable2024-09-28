@@ -1,0 +1,979 @@
+[
+  {
+    "effectMonth": "2024-09",
+    "sectionId": 26,
+    "sectionName": "Cutting",
+    "itemSummeries": [
+      {
+        "inDate": "2024-09-02T00:00:00",
+        "pieceRateItemName": "KSD 008",
+        "pieceRateItemId": 50,
+        "qty": 35,
+        "productionPlanQty": 52,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSD 008",
+            "pieceRateItemId": 50,
+            "qty": 17.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "KSD 008",
+            "pieceRateItemId": 50,
+            "qty": 17.5,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-02T00:00:00",
+        "pieceRateItemName": "KOC 038",
+        "pieceRateItemId": 43,
+        "qty": 23,
+        "productionPlanQty": 23,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KOC 038",
+            "pieceRateItemId": 43,
+            "qty": 11.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "KOC 038",
+            "pieceRateItemId": 43,
+            "qty": 11.5,
+            "rateTypeName": "Helper Only",
+            "rateTypeId": 4
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-02T00:00:00",
+        "pieceRateItemName": "KWT 048",
+        "pieceRateItemId": 1442,
+        "qty": 102,
+        "productionPlanQty": 102,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KWT 048",
+            "pieceRateItemId": 1442,
+            "qty": 51,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "KWT 048",
+            "pieceRateItemId": 1442,
+            "qty": 51,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-02T00:00:00",
+        "pieceRateItemName": "KBPR 007",
+        "pieceRateItemId": 1505,
+        "qty": 33,
+        "productionPlanQty": 33,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBPR 007",
+            "pieceRateItemId": 1505,
+            "qty": 16.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "KBPR 007",
+            "pieceRateItemId": 1505,
+            "qty": 16.5,
+            "rateTypeName": "Helper Only",
+            "rateTypeId": 4
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-02T00:00:00",
+        "pieceRateItemName": "KWRI 003",
+        "pieceRateItemId": 1518,
+        "qty": 15,
+        "productionPlanQty": 19,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KWRI 003",
+            "pieceRateItemId": 1518,
+            "qty": 7.5,
+            "rateTypeName": "Helper Only",
+            "rateTypeId": 4
+          },
+          {
+            "pieceRateItemName": "KWRI 003",
+            "pieceRateItemId": 1518,
+            "qty": 7.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-03T00:00:00",
+        "pieceRateItemName": "KWRI 003",
+        "pieceRateItemId": 1518,
+        "qty": 4,
+        "productionPlanQty": 19,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KWRI 003",
+            "pieceRateItemId": 1518,
+            "qty": 4,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-03T00:00:00",
+        "pieceRateItemName": "KWBO 003",
+        "pieceRateItemId": 74,
+        "qty": 52,
+        "productionPlanQty": 120,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KWBO 003",
+            "pieceRateItemId": 74,
+            "qty": 26,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "KWBO 003",
+            "pieceRateItemId": 74,
+            "qty": 26,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-03T00:00:00",
+        "pieceRateItemName": "KDBO 001",
+        "pieceRateItemId": 76,
+        "qty": 100,
+        "productionPlanQty": 153,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KDBO 001",
+            "pieceRateItemId": 76,
+            "qty": 100,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-03T00:00:00",
+        "pieceRateItemName": "KSD 008",
+        "pieceRateItemId": 50,
+        "qty": 17,
+        "productionPlanQty": 52,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSD 008",
+            "pieceRateItemId": 50,
+            "qty": 8.5,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "KSD 008",
+            "pieceRateItemId": 50,
+            "qty": 8.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-03T00:00:00",
+        "pieceRateItemName": "KDCA 001 ",
+        "pieceRateItemId": 58,
+        "qty": 40,
+        "productionPlanQty": 40,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KDCA 001 ",
+            "pieceRateItemId": 58,
+            "qty": 40,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-04T00:00:00",
+        "pieceRateItemName": "KDBO 001",
+        "pieceRateItemId": 76,
+        "qty": 53,
+        "productionPlanQty": 153,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KDBO 001",
+            "pieceRateItemId": 76,
+            "qty": 53,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-04T00:00:00",
+        "pieceRateItemName": "KWBO 003",
+        "pieceRateItemId": 74,
+        "qty": 68,
+        "productionPlanQty": 120,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KWBO 003",
+            "pieceRateItemId": 74,
+            "qty": 34,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "KWBO 003",
+            "pieceRateItemId": 74,
+            "qty": 34,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-04T00:00:00",
+        "pieceRateItemName": "KBPR 008",
+        "pieceRateItemId": 1506,
+        "qty": 38,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBPR 008",
+            "pieceRateItemId": 1506,
+            "qty": 38,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-05T00:00:00",
+        "pieceRateItemName": "KBPR 008",
+        "pieceRateItemId": 1506,
+        "qty": 42,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBPR 008",
+            "pieceRateItemId": 1506,
+            "qty": 42,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-05T00:00:00",
+        "pieceRateItemName": "BKBS 003",
+        "pieceRateItemId": 63,
+        "qty": 58,
+        "productionPlanQty": 392,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 29,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 29,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-06T00:00:00",
+        "pieceRateItemName": "BKBS 003",
+        "pieceRateItemId": 63,
+        "qty": 65,
+        "productionPlanQty": 392,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 36,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 29,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-06T00:00:00",
+        "pieceRateItemName": "KBCA 007",
+        "pieceRateItemId": 52,
+        "qty": 34,
+        "productionPlanQty": 120,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBCA 007",
+            "pieceRateItemId": 52,
+            "qty": 34,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-06T00:00:00",
+        "pieceRateItemName": "KBPR 008",
+        "pieceRateItemId": 1506,
+        "qty": 20,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBPR 008",
+            "pieceRateItemId": 1506,
+            "qty": 20,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-07T00:00:00",
+        "pieceRateItemName": "BKBS 003",
+        "pieceRateItemId": 63,
+        "qty": 50,
+        "productionPlanQty": 392,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 25,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 25,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-07T00:00:00",
+        "pieceRateItemName": "KBCA 007",
+        "pieceRateItemId": 52,
+        "qty": 40,
+        "productionPlanQty": 120,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBCA 007",
+            "pieceRateItemId": 52,
+            "qty": 40,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-09T00:00:00",
+        "pieceRateItemName": "BKBS 003",
+        "pieceRateItemId": 63,
+        "qty": 70,
+        "productionPlanQty": 392,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 35,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 35,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-09T00:00:00",
+        "pieceRateItemName": "KBCA 007",
+        "pieceRateItemId": 52,
+        "qty": 46,
+        "productionPlanQty": 120,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBCA 007",
+            "pieceRateItemId": 52,
+            "qty": 46,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-09T00:00:00",
+        "pieceRateItemName": "KSR 018",
+        "pieceRateItemId": 41,
+        "qty": 24,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSR 018",
+            "pieceRateItemId": 41,
+            "qty": 24,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-10T00:00:00",
+        "pieceRateItemName": "KSR 018",
+        "pieceRateItemId": 41,
+        "qty": 21,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSR 018",
+            "pieceRateItemId": 41,
+            "qty": 21,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-10T00:00:00",
+        "pieceRateItemName": "KCRI 001",
+        "pieceRateItemId": 1520,
+        "qty": 90,
+        "productionPlanQty": 90,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KCRI 001",
+            "pieceRateItemId": 1520,
+            "qty": 90,
+            "rateTypeName": "Helper Only",
+            "rateTypeId": 4
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-10T00:00:00",
+        "pieceRateItemName": "BKBS 003",
+        "pieceRateItemId": 63,
+        "qty": 58,
+        "productionPlanQty": 392,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 29,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 29,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-11T00:00:00",
+        "pieceRateItemName": "BKBS 003",
+        "pieceRateItemId": 63,
+        "qty": 67,
+        "productionPlanQty": 392,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 31.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 35.5,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-11T00:00:00",
+        "pieceRateItemName": "KSR 018",
+        "pieceRateItemId": 41,
+        "qty": 55,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSR 018",
+            "pieceRateItemId": 41,
+            "qty": 55,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-11T00:00:00",
+        "pieceRateItemName": "KSS 035",
+        "pieceRateItemId": 4864,
+        "qty": 64,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSS 035",
+            "pieceRateItemId": 4864,
+            "qty": 64,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-12T00:00:00",
+        "pieceRateItemName": "BKBS 003",
+        "pieceRateItemId": 63,
+        "qty": 24,
+        "productionPlanQty": 392,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKBS 003",
+            "pieceRateItemId": 63,
+            "qty": 24,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-12T00:00:00",
+        "pieceRateItemName": "KSS 003",
+        "pieceRateItemId": 67,
+        "qty": 21,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSS 003",
+            "pieceRateItemId": 67,
+            "qty": 21,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-12T00:00:00",
+        "pieceRateItemName": "KAV 070",
+        "pieceRateItemId": 60,
+        "qty": 56,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KAV 070",
+            "pieceRateItemId": 60,
+            "qty": 56,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-12T00:00:00",
+        "pieceRateItemName": "KSS 035",
+        "pieceRateItemId": 4864,
+        "qty": 36,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSS 035",
+            "pieceRateItemId": 4864,
+            "qty": 36,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-13T00:00:00",
+        "pieceRateItemName": "C 001",
+        "pieceRateItemId": 4876,
+        "qty": 660,
+        "productionPlanQty": 0,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "C 001",
+            "pieceRateItemId": 4876,
+            "qty": 660,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-13T00:00:00",
+        "pieceRateItemName": "C 002",
+        "pieceRateItemId": 4877,
+        "qty": 198,
+        "productionPlanQty": 0,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "C 002",
+            "pieceRateItemId": 4877,
+            "qty": 198,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-13T00:00:00",
+        "pieceRateItemName": "C 003",
+        "pieceRateItemId": 4878,
+        "qty": 490,
+        "productionPlanQty": 0,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "C 003",
+            "pieceRateItemId": 4878,
+            "qty": 490,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-13T00:00:00",
+        "pieceRateItemName": "KAV 070",
+        "pieceRateItemId": 60,
+        "qty": 44,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KAV 070",
+            "pieceRateItemId": 60,
+            "qty": 44,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-13T00:00:00",
+        "pieceRateItemName": "KBAD 015",
+        "pieceRateItemId": 1368,
+        "qty": 32,
+        "productionPlanQty": 90,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBAD 015",
+            "pieceRateItemId": 1368,
+            "qty": 32,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-13T00:00:00",
+        "pieceRateItemName": "KSS 003",
+        "pieceRateItemId": 67,
+        "qty": 35,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSS 003",
+            "pieceRateItemId": 67,
+            "qty": 17.5,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "KSS 003",
+            "pieceRateItemId": 67,
+            "qty": 17.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-14T00:00:00",
+        "pieceRateItemName": "KBAD 015",
+        "pieceRateItemId": 1368,
+        "qty": 37,
+        "productionPlanQty": 90,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBAD 015",
+            "pieceRateItemId": 1368,
+            "qty": 37,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-14T00:00:00",
+        "pieceRateItemName": "KSS 010",
+        "pieceRateItemId": 39,
+        "qty": 220,
+        "productionPlanQty": 335,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSS 010",
+            "pieceRateItemId": 39,
+            "qty": 110,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "KSS 010",
+            "pieceRateItemId": 39,
+            "qty": 110,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-15T00:00:00",
+        "pieceRateItemName": "KBAD 015",
+        "pieceRateItemId": 1368,
+        "qty": 18,
+        "productionPlanQty": 90,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBAD 015",
+            "pieceRateItemId": 1368,
+            "qty": 18,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-15T00:00:00",
+        "pieceRateItemName": "KCAD 001",
+        "pieceRateItemId": 1380,
+        "qty": 69,
+        "productionPlanQty": 69,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KCAD 001",
+            "pieceRateItemId": 1380,
+            "qty": 69,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-15T00:00:00",
+        "pieceRateItemName": "BKCT 002",
+        "pieceRateItemId": 1449,
+        "qty": 55,
+        "productionPlanQty": 138,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKCT 002",
+            "pieceRateItemId": 1449,
+            "qty": 27.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "BKCT 002",
+            "pieceRateItemId": 1449,
+            "qty": 27.5,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-15T00:00:00",
+        "pieceRateItemName": "KSS 003",
+        "pieceRateItemId": 67,
+        "qty": 44,
+        "productionPlanQty": 100,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSS 003",
+            "pieceRateItemId": 67,
+            "qty": 22,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "KSS 003",
+            "pieceRateItemId": 67,
+            "qty": 22,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-15T00:00:00",
+        "pieceRateItemName": "KSS 010",
+        "pieceRateItemId": 39,
+        "qty": 110,
+        "productionPlanQty": 335,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KSS 010",
+            "pieceRateItemId": 39,
+            "qty": 55,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "KSS 010",
+            "pieceRateItemId": 39,
+            "qty": 55,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-16T00:00:00",
+        "pieceRateItemName": "KBCA 008",
+        "pieceRateItemId": 40,
+        "qty": 39,
+        "productionPlanQty": 170,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBCA 008",
+            "pieceRateItemId": 40,
+            "qty": 39,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-16T00:00:00",
+        "pieceRateItemName": "KBAD 015",
+        "pieceRateItemId": 1368,
+        "qty": 3,
+        "productionPlanQty": 90,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBAD 015",
+            "pieceRateItemId": 1368,
+            "qty": 3,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-16T00:00:00",
+        "pieceRateItemName": "BKCT 002",
+        "pieceRateItemId": 1449,
+        "qty": 83,
+        "productionPlanQty": 138,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "BKCT 002",
+            "pieceRateItemId": 1449,
+            "qty": 41.5,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "BKCT 002",
+            "pieceRateItemId": 1449,
+            "qty": 41.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-16T00:00:00",
+        "pieceRateItemName": "KBKE 016",
+        "pieceRateItemId": 1339,
+        "qty": 36,
+        "productionPlanQty": 120,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBKE 016",
+            "pieceRateItemId": 1339,
+            "qty": 18,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          },
+          {
+            "pieceRateItemName": "KBKE 016",
+            "pieceRateItemId": 1339,
+            "qty": 18,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          }
+        ]
+      },
+      {
+        "inDate": "2024-09-18T00:00:00",
+        "pieceRateItemName": "KBKE 016",
+        "pieceRateItemId": 1339,
+        "qty": 48,
+        "productionPlanQty": 120,
+        "rateTypeDatas": [
+          {
+            "pieceRateItemName": "KBKE 016",
+            "pieceRateItemId": 1339,
+            "qty": 26.5,
+            "rateTypeName": "Operator",
+            "rateTypeId": 1
+          },
+          {
+            "pieceRateItemName": "KBKE 016",
+            "pieceRateItemId": 1339,
+            "qty": 21.5,
+            "rateTypeName": "Helper",
+            "rateTypeId": 2
+          }
+        ]
+      }
+    ]
+  }
+]

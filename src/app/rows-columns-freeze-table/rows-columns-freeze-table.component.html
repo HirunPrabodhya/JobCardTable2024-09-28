@@ -1,0 +1,28 @@
+
+<div class="table-respomnsive mt-5">
+    <table class="table">
+        <thead class="fixed-header">
+            <tr>
+                <th rowspan="2">Item</th>
+                <th rowspan="2">Plan Qty</th>
+                <th rowspan="2">Total Qty</th>
+                <th *ngFor="let date of getUniqueDates()">{{date}}</th>
+            </tr>
+            <tr>
+                <th [colSpan]="getUniqueDates().length">Qty</th>
+            </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let item of getTransformJobCardData()">
+            <tr>
+                <td>{{item.item}}</td>
+                <td>{{item.PlanQty}}</td>
+                <td>{{item.TotalQty}}</td>
+               <ng-container *ngFor="let date of getUniqueDates()">
+                    <td>{{item[date]?.[0].productionQty || ''}}</td>
+               </ng-container>
+            </tr>
+          </ng-container>
+        </tbody>
+    </table>
+</div>

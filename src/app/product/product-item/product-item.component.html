@@ -1,0 +1,114 @@
+
+  
+<h2>Updated table (2024-09-28)</h2>
+<div class="mb-2">
+  <table border="1">
+    <thead>
+      <tr>
+        <th rowspan="2">Item</th>
+        <th rowspan="2">Plan Qty</th>
+        <th rowspan="2">Total Qty</th>
+        <ng-container *ngFor="let date of getUniqueDates()">
+          <th colspan="2">{{ date }}</th>
+        </ng-container>
+      </tr>
+      <tr>
+        <ng-container *ngFor="let date of getUniqueDates()">
+          <th>Production Qty</th>
+          <th>Rate TypeQty</th>
+          
+        </ng-container>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let item of productionData">
+        <tr>
+          <td>{{ item.item }}</td>
+          <td>{{ item.PlanQty }}</td>
+          <td>{{ item.TotalQty }}</td>
+  
+          <ng-container *ngFor="let date of getUniqueDates()">
+            <td>{{ item[date]?.[0]?.productionQty || '' }}</td>
+            <td>
+              <ul *ngIf="item[date]?.[0]?.rateQtys.length">
+                <!-- <li *ngIf="item[date]?.[0]?.rateQtys[0]?.rateType">{{ item[date]?.[0]?.rateQtys[0]?.rateType || '' }}: {{ item[date]?.[0]?.rateQtys[0]?.qty || item[date]?.[0]?.rateQtys[0]?.Qty || '' }}</li>
+             
+                <li *ngIf="item[date]?.[0]?.rateQtys[1]?.rateType">{{ item[date]?.[0]?.rateQtys[1]?.rateType || '' }}: {{ item[date]?.[0]?.rateQtys[1]?.qty || item[date]?.[0]?.rateQtys[1]?.Qty || '' }}</li> -->
+                <ng-container *ngFor="let r of item[date]?.[0]?.rateQtys;let i = index">
+                  <li *ngIf="item[date]?.[0]?.rateQtys[i]?.rateType">{{ item[date]?.[0]?.rateQtys[i]?.rateType || '' }}: {{ item[date]?.[0]?.rateQtys[i]?.qty || item[date]?.[0]?.rateQtys[i]?.Qty || '' }}</li>
+                  
+                </ng-container>
+               
+              </ul>
+            </td>
+           
+          </ng-container>
+        </tr>
+       
+        
+      </ng-container>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+<h2>Old table (2024-09-27)</h2>
+
+<div class="mb-2">
+  <table border="1">
+    <thead>
+      <tr>
+        <th rowspan="2">Item</th>
+        <th rowspan="2">Plan Qty</th>
+        <th rowspan="2">Total Qty</th>
+        <ng-container *ngFor="let date of getUniqueDates()">
+          <th colspan="3">{{ date }}</th>
+        </ng-container>
+      </tr>
+      <tr>
+        <ng-container *ngFor="let date of getUniqueDates()">
+          <th>Production Qty</th>
+          <th>Rate Type</th>
+          <th>Qty</th>
+        </ng-container>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let item of productionData">
+        <tr>
+          <td rowspan="3">{{ item.item }}</td>
+          <td rowspan="3">{{ item.PlanQty }}</td>
+          <td rowspan="3">{{ item.TotalQty }}</td>
+  
+          <ng-container *ngFor="let date of getUniqueDates()">
+            <td rowspan="3">{{ item[date]?.[0]?.productionQty || '-' }}</td>
+            <td>{{ item[date]?.[0]?.rateQtys[0]?.rateType || '-' }}</td>
+            <td>{{ item[date]?.[0]?.rateQtys[0]?.qty || item[date]?.[0]?.rateQtys[0]?.Qty || '-' }}</td>
+            
+          </ng-container>
+        </tr>
+        <tr>
+          <ng-container *ngFor="let date of getUniqueDates()">
+            <td>{{ item[date]?.[0]?.rateQtys[1]?.rateType || '-' }}</td>
+            <td>{{ item[date]?.[0]?.rateQtys[1]?.qty || item[date]?.[0]?.rateQtys[1]?.Qty || '-' }}</td>
+          </ng-container>
+        </tr>
+        <tr>
+          <ng-container *ngFor="let date of getUniqueDates()">
+            <td> - </td>
+            <td> -</td>
+          </ng-container>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>
+ 
+
+  
+  
+  
